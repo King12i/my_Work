@@ -1,0 +1,33 @@
+* {
+    vertical-align:top;
+}
+nav {
+    float: right;
+    font-family: sans-serif;
+    background-color:honeydew;
+    padding:2px;
+}
+ul {
+    margin:0px;
+    padding:0px;
+}
+li {
+    background-color: rgb(240, 240, 240);
+    border: 0px solid rgb(182, 182, 182);
+    padding:2px;
+    margin:3px;
+    text-align: center;
+}
+a {
+    color:black;
+    font-weight:bold;
+    text-decoration:none;
+}
+li {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(182, 182, 182);
+    padding:10px;
+    margin:1px;
+    text-align: center;
+    display:inline-block;
+}

@@ -1,0 +1,80 @@
+body{
+    margin-top: 40px;
+    background-color: gray;
+}
+#principal{
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    backface-visibility: .9;
+    margin: auto;
+    background-image: url('kaka.gif');
+    width: 1024px;
+    height: 600px;
+}
+.parag{
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 590px;
+    float: left;
+}
+img{
+    opacity: 0.8;
+    float: left;
+    border-radius: 5px;
+    width: 400px;
+    height: 590px;
+}
+.paragraph{
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin-left: 10px;
+     margin-top: 30px;
+     float: left;
+     border: 1px solid honeydew;
+     width: 590px;
+}
+.paragraph p{
+    color: ivory;
+    font-size: 30px;
+    
+}
+.butt{
+    opacity: 0.9;
+    margin-left: 160px;
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.bouton{
+    opacity: 9;
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('light1.gif');
+    font-style: Algerian;
+    font-size: 50px;
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+}
+.logos{
+    
+    margin-left: 50px;
+    float: left;
+    margin-top: -50px;
+}
+.logo{
+    margin-left: 60px;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

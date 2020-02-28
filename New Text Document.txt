@@ -1,0 +1,31 @@
+ <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="reaction.js"></script>
+
+
+
+$(document).ready(function(){
+    $('#action').click (function (){
+        alert("hello")
+    })
+
+    $(".hover").hover(function(){
+        $(".newInfo").html("<p>Hello there!</p>")
+    })
+
+    $(document).on('mouseover', '.red', function(){
+        $("#box").attr('class', 'blue');
+        $("#box").html("I'm a blue box");
+    })
+
+    $(document).on('click', '.blue', function(){
+        $("#box").attr('class', 'red');
+        $("#box").html("I'm a red box");
+    })
+    $(".html").click(function(){
+        $(".infoSection").html("<h3>HTML</h3><p>This is where I will put all kinds of information about the things I know about HTML</p>")
+    })
+
+    $(".javascript").click(function(){
+        $(".infoSection").html("<h3>JavaScript</h3><p>And THIS is where I talk about my javascript knowledge!</p>")
+    })
+})
